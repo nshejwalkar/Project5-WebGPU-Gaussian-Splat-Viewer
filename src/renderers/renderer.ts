@@ -11,7 +11,7 @@ export interface Renderer {
   frame: (encoder: GPUCommandEncoder, texture_view: GPUTextureView) => void,
   camera_buffer: GPUBuffer,
 }
-
+ 
 export default async function init(
   canvas: HTMLCanvasElement,
   context: GPUCanvasContext,
